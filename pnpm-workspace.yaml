@@ -1,0 +1,5 @@
+# Native packages have platform binaries; no dependency install scripts needed for this static site.
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false

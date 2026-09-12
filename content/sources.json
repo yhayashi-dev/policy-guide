@@ -1,0 +1,770 @@
+[
+  {
+    "id": "pension",
+    "title": "年金制度改正法が成立しました",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147284_00017.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "成立と改正全体の概要。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "bill",
+    "title": "第217回国会 閣法第59号・議案審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/217/meisai/m217080217059.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-09-12",
+    "note": "提出、両院の議決、公布の記録。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "minutes",
+    "title": "第25回社会保障審議会年金部会 議事録",
+    "url": "https://www.mhlw.go.jp/stf/newpage_20250707.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2025年6月30日開催。年金課長の説明、永井委員・原委員等の発言。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "coverage",
+    "title": "社会保険の加入対象の拡大について",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147284_00021.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-10",
+    "note": "加入対象と給付、負担軽減策。賃金要件の最新予定は「年収の壁」ページも参照"
+  },
+  {
+    "id": "wall",
+    "title": "「年収の壁」への対応",
+    "url": "https://www.mhlw.go.jp/stf/taiou_001_00002.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年10月の賃金要件撤廃予定と企業規模別の適用予定。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "working",
+    "title": "在職老齢年金制度の見直しについて",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147284_00022.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年4月の基準額65万円。成立時の62万円と区別。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "medical",
+    "title": "高額療養費制度を利用される皆さまへ",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou/index.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年8月診療分と2027年8月からの見直しを区別。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "medical-law",
+    "title": "医療保険制度改正法が成立しました",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/newpage_00014.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年5月29日の成立と年間上限の導入。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "medical-minutes",
+    "title": "第9回 高額療養費制度の在り方に関する専門委員会 議事録",
+    "url": "https://www.mhlw.go.jp/stf/newpage_69932.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2025年12月25日。内堀委員・伊奈川委員の発言。改革全体への意見も含む。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "child",
+    "title": "国民年金保険料の育児免除制度",
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/ikujimenjo.html",
+    "publisher": "日本年金機構",
+    "checkedAt": "2026-09-12",
+    "note": "2026年9月8日更新。対象、免除期間と手続き。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "child-policy",
+    "title": "育児期間の国民年金保険料免除制度",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000143356_00038.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年10月1日の開始予定。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "child-bill",
+    "title": "第213回国会 閣法第22号・議案審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/213/meisai/m213080213022.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-09-12",
+    "note": "2024年の子ども・子育て支援法等改正の成立・公布。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "child-minutes",
+    "title": "第11回社会保障審議会年金部会 議事録",
+    "url": "https://www.mhlw.go.jp/stf/newpage_20231226.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2023年12月26日開催。佐保委員の育児免除の制度設計への意見。施行日・現行の対象条件は最新案内を参照。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "working-minutes",
+    "title": "第21回社会保障審議会年金部会 議事録",
+    "url": "https://www.mhlw.go.jp/stf/newpage_20241202.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2024年開催。佐保委員の在職老齢年金の見直しに関する分析・根拠を求める意見。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "diet-221",
+    "title": "第221回国会 議案一覧（最新の審議状況）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/menu.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "閉会中審査を審議中・未了と区別。国会全体の件数を示すためではなく掲載議案の現在地の照合に使用。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "tax-2026",
+    "title": "令和8年度税制改正：基礎控除等の適用時期",
+    "url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+    "publisher": "国税庁",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "education-2026",
+    "title": "高校就学支援金・中学校35人学級の成立と施行",
+    "url": "https://www.mext.go.jp/b_menu/activity/detail/2026/20260331.html",
+    "publisher": "文部科学省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "passport-2026",
+    "title": "旅券手数料改定 関連情報（9月1日更新）",
+    "url": "https://www.mofa.go.jp/mofaj/ca/pss/pagew_000001_02493.html",
+    "publisher": "外務省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12第1バッチで再照合。自動HTTP取得は403、Web閲覧経路では9月1日更新の公式本文を確認。リンク切れとは判定しない。"
+  },
+  {
+    "id": "transport-2026",
+    "title": "地域交通法の施行期日を定める政令の閣議決定",
+    "url": "https://www.mlit.go.jp/report/press/sogo12_hh_000539.html",
+    "publisher": "国土交通省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "intelligence-2026",
+    "title": "国家情報会議設置法の施行に伴う関係政令（令和8年政令第234号）",
+    "url": "https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000318534",
+    "publisher": "内閣官房（e-Govパブリック・コメント掲載）",
+    "checkedAt": "2026-09-12",
+    "note": "附則第1条（PDF6ページ目）で設置法の施行日を2026年7月31日と明記。第1条には国家情報局への組織改正を掲載。2026年9月12日に公式本文を確認。旧内閣官房案内の404を差し替え。"
+  },
+  {
+    "id": "disaster-2026",
+    "title": "防災庁設置法案：法律案等審査経過概要",
+    "url": "https://www.shugiin.go.jp/internet/itdb_iinkai.nsf/html/gianrireki/221_221_kakuho_13.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "旧内閣官房準備ページは今回404。到達可能な公式審査概要に差替え。成立・公布を確認する資料であり発足日を証明する資料ではない。"
+  },
+  {
+    "id": "privacy-2026",
+    "title": "令和8年 改正個人情報保護法について",
+    "url": "https://www.ppc.go.jp/personalinfo/legal/r8kaiseihogohou/",
+    "publisher": "個人情報保護委員会",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "guard-2026",
+    "title": "民法等の一部を改正する法律案：議案審議情報・要旨",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221043.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-09-12",
+    "note": "旧法務省案内は自動取得403・別取得経路も本文未確認。リンク切れとは断定せず、確認可能な国会要旨へ差替え。公布2026-06-24、主施行は政令日。"
+  },
+  {
+    "id": "labour-2026",
+    "title": "労災補償：令和8年の改正",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "solar-2026",
+    "title": "太陽光パネルリサイクル関連：成立法と制度資料",
+    "url": "https://www.env.go.jp/recycle/recycling/renewable/page_00345.html",
+    "publisher": "環境省",
+    "checkedAt": "2026-09-12",
+    "note": "提出時の閣議決定発表から成立後の制度案内へ差替え。2026-05-29原案成立・06-05公布を確認。具体的な主施行日・費用負担の決定とは区別。"
+  },
+  {
+    "id": "parent-2026",
+    "title": "離婚と子どもをめぐる新しいルールについて",
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_kaisei/index.html",
+    "publisher": "裁判所",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "childcare-2026",
+    "title": "こども誰でも通園制度について",
+    "url": "https://www.cfa.go.jp/policies/hoiku/daredemo-tsuen",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "dbs-2026",
+    "title": "こども性暴力防止法：法令・施行準備",
+    "url": "https://www.cfa.go.jp/policies/child-safety/efforts/koseibouhou",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "harass-2026",
+    "title": "カスタマーハラスメント・求職者等セクハラ対策の義務化",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyoukintou/seisaku06/",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "harass-guide",
+    "title": "従業員を守るために：カスハラ対策の新ルール",
+    "url": "https://www.mhlw.go.jp/web_magazine/series/20260820.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s1-progress",
+    "title": "政治資金規正法の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE153E.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s1-text",
+    "title": "政治資金規正法の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105001.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s6-progress",
+    "title": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE233A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s6-text",
+    "title": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105006.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s16-progress",
+    "title": "自動車税及び軽自動車税の税率の上乗せに係る特例の廃止に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE295A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s16-text",
+    "title": "自動車税及び軽自動車税の税率の上乗せに係る特例の廃止に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105016.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s19-progress",
+    "title": "自動車盗難対策等の推進に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE29BA.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s19-text",
+    "title": "自動車盗難対策等の推進に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105019.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s24-progress",
+    "title": "特別市の設置に係る制度の整備の推進に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2A92.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s24-text",
+    "title": "特別市の設置に係る制度の整備の推進に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105024.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s28-progress",
+    "title": "衆議院議員の選挙制度改革及び定数削減に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2AE2.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s28-text",
+    "title": "衆議院議員の選挙制度改革及び定数削減に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105028.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s32-progress",
+    "title": "受託中小企業振興法の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2BF2.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s32-text",
+    "title": "受託中小企業振興法の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105032.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s36-progress",
+    "title": "非居住住宅税及び超短期所有住宅等の譲渡に係る事業所得等の課税の特例の創設等に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2C82.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "s36-text",
+    "title": "非居住住宅税及び超短期所有住宅等の譲渡に係る事業所得等の課税の特例の創設等に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22105036.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k3-progress",
+    "title": "所得税法等の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE14D6.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k3-text",
+    "title": "所得税法等の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109003.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k8-progress",
+    "title": "高等学校等就学支援金の支給に関する法律の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE151A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k8-text",
+    "title": "高等学校等就学支援金の支給に関する法律の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109008.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k9-progress",
+    "title": "公立義務教育諸学校の学級編制及び教職員定数の標準に関する法律の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE152E.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k9-text",
+    "title": "公立義務教育諸学校の学級編制及び教職員定数の標準に関する法律の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109009.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k13-progress",
+    "title": "防災庁設置法案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1612.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月12日に確認。"
+  },
+  {
+    "id": "k13-text",
+    "title": "防災庁設置法案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109013.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。"
+  },
+  {
+    "id": "k21-progress",
+    "title": "旅券法の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F2A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k21-text",
+    "title": "旅券法の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109021.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k23-progress",
+    "title": "地域公共交通の活性化及び再生に関する法律の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F52.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k23-text",
+    "title": "地域公共交通の活性化及び再生に関する法律の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109023.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k24-progress",
+    "title": "国家情報会議設置法案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1FCA.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k24-text",
+    "title": "国家情報会議設置法案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109024.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k43-progress",
+    "title": "民法等の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2576.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月12日に確認。"
+  },
+  {
+    "id": "k43-text",
+    "title": "民法等の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109043.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。"
+  },
+  {
+    "id": "k49-progress",
+    "title": "太陽電池廃棄物の再資源化等の推進に関する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE25EE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月12日に確認。"
+  },
+  {
+    "id": "k49-text",
+    "title": "太陽電池廃棄物の再資源化等の推進に関する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109049.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。"
+  },
+  {
+    "id": "k53-progress",
+    "title": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE26DE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k53-text",
+    "title": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109053.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "k54-progress",
+    "title": "個人情報の保護に関する法律等の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE26F2.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k54-text",
+    "title": "個人情報の保護に関する法律等の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109054.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k56-progress",
+    "title": "労働者災害補償保険法等の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE271A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k56-text",
+    "title": "労働者災害補償保険法等の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109056.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k64-progress",
+    "title": "皇室典範等の一部を改正する法律案：審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2B16.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "本文と審議経過を2026年9月10日に確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "k64-text",
+    "title": "皇室典範等の一部を改正する法律案：提出時法律案",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109064.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "成立法は両院で原案可決の経過と照合。未成立案の施行条項は実施が決まった日付とは扱わない。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "school-futai",
+    "title": "高校の就学支援金の拡充：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/monkaECCB1AC7A0E5C53449258DBC0024EC24.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "class-futai",
+    "title": "中学校の35人学級：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/monkaBE40CAAA184161A149258DBC00220992.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "intelligence-futai",
+    "title": "国家情報会議・国家情報局：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/naikaku8F608683D26A45B149258DFB00084880.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "guard-futai",
+    "title": "成年後見・遺言制度の見直し：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/houmu09946B2EDA745A7449258DFF001F3494.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。"
+  },
+  {
+    "id": "privacy-futai",
+    "title": "個人情報保護法の2026年改正：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/chikodigi3D0F75975000490249258DFF001CC9F0.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "solar-futai",
+    "title": "太陽光パネルの廃棄・リサイクル：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/kankyou68E474706CFD99A349258DE700218BD8.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。"
+  },
+  {
+    "id": "labour-futai",
+    "title": "労災保険の遺族給付・適用の見直し：衆議院附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/kourou4A788F262EC6C79A49258E06001CE6FE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "可決に際して付された配慮・改善の要請。法案全体への反対意見とは区別して要約。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "imperial-minutes",
+    "title": "第221回国会 議院運営委員会 第34号（7月10日）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_kaigiroku.nsf/html/kaigiroku/002022120260710034.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "皇室典範改正の政府説明と各会派の質疑を確認。皇族数確保と将来の皇位継承の議論を区別。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "parent-procedure",
+    "title": "離婚後の親権者の定めに関する手続等",
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_shinken/index.html",
+    "publisher": "裁判所",
+    "checkedAt": "2026-09-12",
+    "note": "共同・単独親権の判断と裁判手続を確認。。2026-09-12最終バッチで公式本文を再照合。"
+  },
+  {
+    "id": "bill-review-0912",
+    "title": "第217回国会 閣法第59号・議案審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/217/meisai/m217080217059.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-09-12",
+    "note": "提出、両院の議決、公布の記録。2026-09-12再照合（今回選定記事用）"
+  },
+  {
+    "id": "wall-review-0912",
+    "title": "「年収の壁」への対応",
+    "url": "https://www.mhlw.go.jp/stf/taiou_001_00002.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年10月の賃金要件撤廃予定と企業規模別の適用予定。2026-09-12再照合（今回選定記事用）"
+  },
+  {
+    "id": "coverage-review-0912",
+    "title": "社会保険の加入対象の拡大について",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147284_00021.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "加入対象と給付、負担軽減策。賃金要件の最新予定は「年収の壁」ページも参照。2026-09-12再照合（今回選定記事用）"
+  },
+  {
+    "id": "minutes-review-0912",
+    "title": "第25回社会保障審議会年金部会 議事録",
+    "url": "https://www.mhlw.go.jp/stf/newpage_20250707.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2025年6月30日開催。年金課長の説明、永井委員・原委員等の発言。2026-09-12再照合（今回選定記事用）"
+  },
+  {
+    "id": "coverage-leaflet-2026",
+    "title": "短時間労働者の社会保険の加入拡大のポイント（2026年1月作成・1ページ）",
+    "url": "https://www.mhlw.go.jp/content/12500000/001633788.pdf",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "ポイント2に2026年10月撤廃予定。企業規模別日程・学生除外・最低賃金減額特例を含む。予定を施行済みとしない。"
+  },
+  {
+    "id": "disaster-futai",
+    "title": "防災庁設置法案等に対する附帯決議",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/saigai5B517F94EB59CEFD49258DF700254C5E.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "第1〜4項・第15項等。行政間連携、被災自治体の負担、人材、複合災害への対応を求める決議であり、法律全体への反対とは区別。"
+  },
+  {
+    "id": "bill-batch1-0912",
+    "title": "第217回国会 閣法第59号・議案審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/217/meisai/m217080217059.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-09-12",
+    "note": "提出、両院の議決、公布の記録。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "working-batch1-0912",
+    "title": "在職老齢年金制度の見直しについて",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147284_00022.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-09-12",
+    "note": "2026年4月の基準額65万円。成立時の62万円と区別。2026-09-12第1バッチで再照合。"
+  },
+  {
+    "id": "city-opinion-0903",
+    "title": "令和8年9月3日知事定例記者会見：特別市に関する三市の考え方への受け止め",
+    "url": "https://www.pref.kanagawa.jp/chiji/press-conference/2026/0903.html",
+    "publisher": "神奈川県",
+    "checkedAt": "2026-09-12",
+    "note": "県側の懸念と反対理由。特別市構想についての見解であり、衆法24号の採決・条項への反対と同一視しない。"
+  },
+  {
+    "id": "data-minutes-0512",
+    "title": "第221回国会 地域・こども・デジタル特別委員会 第6号（5月12日）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_kaigiroku.nsf/html/kaigiroku/033022120260512006.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "谷浩一郎委員のデータ利用への懸念と松本尚大臣の法令制限に関する答弁。併せて審査された個人情報保護法改正と区別する。"
+  },
+  {
+    "id": "election-minutes-0630",
+    "title": "第221回国会 政治改革特別委員会 第10号（6月30日）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_kaigiroku.nsf/html/kaigiroku/034322120260630010.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-09-12",
+    "note": "長谷川・金村提出者の説明と浦野委員が紹介した比例削減への批判。質問者自身の法案反対と扱わない。"
+  },
+  {
+    "id": "parent-minutes-0412",
+    "title": "第213回国会 法務委員会第11号（2024年4月12日）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_kaigiroku.nsf/html/kaigiroku/000421320240412011.htm",
+    "publisher": "衆議院",
+    "note": "修正案と原案への立場を区別。過去の賛否討論であり施行後評価ではない。",
+    "checkedAt": "2026-09-12"
+  },
+  {
+    "id": "dbs-futai",
+    "title": "こども性暴力防止法案に対する附帯決議（第213回国会閣法61号）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Futai/chikodigi6BCC9D862776AE2B49258B25001424EB.htm",
+    "publisher": "衆議院",
+    "note": "運用基準・犯罪歴情報の管理・偏見防止等の要請。制度全体への反対ではない。",
+    "checkedAt": "2026-09-12"
+  },
+  {
+    "id": "daycare-portal",
+    "title": "こども誰でも通園制度：利用者向け公式案内",
+    "url": "https://www.daretsu.cfa.go.jp/",
+    "publisher": "こども家庭庁",
+    "note": "未就園の0歳6か月から満3歳未満。全国給付と地域の予約・空きは区別。",
+    "checkedAt": "2026-09-12"
+  },
+  {
+    "id": "dbs-training",
+    "title": "こども性暴力防止法に基づく従事者向け研修教材",
+    "url": "https://www.cfa.go.jp/policies/child-safety/efforts/koseibouhou/jujisya",
+    "publisher": "こども家庭庁",
+    "note": "9月9日更新の演習資料等。研修・予防措置の準備資料。",
+    "checkedAt": "2026-09-12"
+  }
+]
