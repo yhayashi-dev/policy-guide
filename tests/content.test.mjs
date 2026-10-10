@@ -5,6 +5,8 @@ import { validate } from '../scripts/validate.mjs';
 import { matches } from '../lib/search.ts';
 const a = JSON.parse(readFileSync('content/articles.json'));
 const s = JSON.parse(readFileSync('content/sources.json'));
+const historical = JSON.parse(readFileSync('tests/fixtures/articles-2026-09-12.json'));
+const activeSlugs = ['political-donations', 'disability-lifelong-support', 'vehicle-tax-surcharge', 'vehicle-theft', 'special-city', 'electoral-reform', 'small-business-support', 'housing-speculation-tax'];
 test('published data is valid', () => assert.deepEqual(validate(a, s), []));
 for (const [name, mutate] of [
   ['missing source', (x) => (x[0].summaryRefs = ['missing'])],
@@ -27,12 +29,23 @@ for (const [name, mutate] of [
     mutate(x);
     assert.ok(validate(x, s).length > 0);
   });
-test('no fictional deliberating topic', () =>
-  assert.equal(a.filter((x) => matches(x, '', 'すべて', '審議中')).length, 0));
-test('pending includes partial implementations', () =>
-  assert.equal(
-    a.filter((x) => matches(x, '', 'すべて', '施行待ち')).length,
-    16,
+test('current deliberating topics retain exact original bill identities', () => {
+  const active = a.filter(x => matches(x, '', 'すべて', '審議中'));
+  assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
+  for (const topic of active) {
+    assert.equal(topic.status, '衆議院審議');
+    assert.equal(topic.lawId, historical.find(x => x.slug === topic.slug).lawId);
+    assert.equal(topic.enacted, false);
+    assert.equal(topic.pending, false);
+    assert.ok(topic.current.text.includes('第222回国会'));
+    assert.ok(topic.current.text.includes('第221回国会'));
+    assert.ok(topic.current.refs.includes('diet-221'));
+  }
+});
+test('pending includes exact future and partial implementations', () =>
+  assert.deepEqual(
+    a.filter((x) => matches(x, '', 'すべて', '施行待ち')).map(x => x.slug).sort(),
+    ['child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','imperial-household','income-tax-2026','junior-high-classes','local-transport','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
   ));
 test('Japanese keyword and category combine', () =>
   assert.deepEqual(
@@ -62,7 +75,10 @@ test('at least thirty topics and all original slugs preserved', () => {
   for (const slug of ['pension-reform','social-insurance','high-cost-medical','working-pension','childcare-pension']) assert.ok(a.some(x => x.slug === slug));
 });
 test('recess review stays distinct from active deliberation and enacted laws', () => {
-  const recess = a.filter(x => matches(x, '', 'すべて', '継続審査'));
+  const recess = historical.filter(x => matches(x, '', 'すべて', '継続審査'));
+  assert.equal(historical.length, 30);
+  assert.deepEqual(validate(historical, s), []);
+  assert.equal(historical.filter(x => matches(x, '', 'すべて', '審議中')).length, 0);
   assert.equal(recess.length, 8);
   for (const topic of recess) {
     assert.equal(matches(topic, '', 'すべて', '審議中'), false);
@@ -72,7 +88,7 @@ test('recess review stays distinct from active deliberation and enacted laws', (
   }
 });
 test('new topics combine keyword, category and status', () => {
-  assert.deepEqual(a.filter(x => matches(x, '住宅', '税金', '継続審査')).map(x => x.slug), ['housing-speculation-tax']);
+  assert.deepEqual(a.filter(x => matches(x, '住宅', '税金', '衆議院審議')).map(x => x.slug), ['housing-speculation-tax']);
   assert.deepEqual(a.filter(x => matches(x, 'パスポート', '行政', '施行済み')).map(x => x.slug), ['passport-reform']);
 });
 test('all requested fields have published coverage', () => {
@@ -80,8 +96,12 @@ test('all requested fields have published coverage', () => {
   for (const c of ['税金','社会保障','年金','医療','雇用','子育て','教育','家族制度','行政','デジタル','経済','安全保障','皇室']) assert.ok(categories.has(c), c);
 });
 test('unpassed proposals cannot acquire enacted or waiting flags', () => {
-  const x = structuredClone(a);
-  const topic = x.find(x => x.status === '継続審査');
-  topic.enacted = true;
-  assert.ok(validate(x, s).length);
+  for (const original of [a, historical]) {
+    for (const flag of ['enacted', 'pending']) {
+      const x = structuredClone(original);
+      const topic = x.find(x => x.slug === 'political-donations');
+      topic[flag] = true;
+      assert.ok(validate(x, s).includes(`${topic.slug}: unpassed proposal flags`));
+    }
+  }
 });
