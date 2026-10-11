@@ -822,5 +822,13 @@
     "publisher": "デジタル庁（e-Gov法令検索）",
     "checkedAt": "2026-10-11",
     "note": "男女雇用機会均等法の法63号改正版（2026-10-01）が CurrentEnforced。施行日は2026-10-01で期限コメント・scheduled上限欄はnull。求職者等セクハラ措置義務の基礎法を照合。"
+  },
+  {
+    "id": "s6-progress-222",
+    "title": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案：第222回国会の審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2DAE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-11",
+    "note": "第222回国会の経過で、提出回次221・衆法6号の同一議案を照合。2026年10月5日に衆議院文部科学委員会へ付託。審議結果・公布の記載は未確認。前会期の受理・閉会中審査は旧経過s6-progressを根拠として保持。"
   }
 ]
