@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 3);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 5);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -109,7 +109,7 @@ test('unpassed proposals cannot acquire enacted or waiting flags', () => {
 
 // New-session bills are separate identities; an article does not make a proposal law.
 test('222 session priority proposals remain unpassed and separate from existing laws', () => {
-  const expected = {'food-tax-worker-support': 1, 'hepatitis-b-claim-extension': 9, 'pollution-survivor-compensation': 14};
+  const expected = {'food-tax-worker-support': 1, 'hepatitis-b-claim-extension': 9, 'pollution-survivor-compensation': 14, 'local-public-survivor-compensation': 5, 'school-medical-compensation-limit': 8};
   for (const [slug, number] of Object.entries(expected)) {
     const topic = a.find(x => x.slug === slug);
     assert.ok(topic, slug);

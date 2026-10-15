@@ -1014,5 +1014,93 @@
     "publisher": "環境省",
     "checkedAt": "2026-10-16",
     "note": "第30条の配偶者/夫の年齢要件と生計維持・遺族順位を画像で確認。父母/祖父母等の別の条件を一括撤廃する案ではない。"
+  },
+  {
+    "id": "k222-5-progress",
+    "title": "第222回国会 閣法第5号：衆議院経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE347E.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-5-senate",
+    "title": "第222回国会 閣法第5号：参議院明細",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222005.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-5-reason",
+    "title": "第222回国会 閣法第5号：提出理由",
+    "url": "https://www.clb.go.jp/recent-laws/diet_bill/detail/id=5351",
+    "publisher": "内閣法制局",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-8-progress",
+    "title": "第222回国会 閣法第8号：衆議院経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE34BA.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-8-senate",
+    "title": "第222回国会 閣法第8号：参議院明細",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222008.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-8-reason",
+    "title": "第222回国会 閣法第8号：提出理由",
+    "url": "https://www.clb.go.jp/recent-laws/diet_bill/detail/id=5357",
+    "publisher": "内閣法制局",
+    "checkedAt": "2026-10-16",
+    "note": "新規提出回次/番号/件名を照合。10/9提出・未成立。議決/公布記載なし。理由は提出者の目的で、効果・全会派賛否の実証ではない。"
+  },
+  {
+    "id": "k222-5-text",
+    "title": "地方公務員災害補償法等改正案：案文・理由",
+    "url": "https://www.soumu.go.jp/main_content/001095749.pdf",
+    "publisher": "総務省",
+    "checkedAt": "2026-10-16",
+    "note": "7頁全文照合。遺族要件/1人時係数/特定疾病時効/共済要件と各経過措置、主施行2027/4/1・経過政令委任のみ公布日施行の案を確認。未成立。"
+  },
+  {
+    "id": "k222-5-outline",
+    "title": "地方公務員災害補償法等改正案：概要",
+    "url": "https://www.soumu.go.jp/main_content/001095747.pdf",
+    "publisher": "総務省",
+    "checkedAt": "2026-10-16",
+    "note": "案文と対照。夫の年齢/障害状態要件、1遺族の153→175日係数と時効条件を確認。父母祖父母条件まで撤廃する案ではない。"
+  },
+  {
+    "id": "k222-8-text",
+    "title": "公立学校の学校医等の公務災害補償法改正案：案文・理由",
+    "url": "https://www.mext.go.jp/content/20261009-mxt_hourei-000052397_3.pdf",
+    "publisher": "文部科学省",
+    "checkedAt": "2026-10-16",
+    "note": "3頁全文確認。第9条の指定疾病の療養/休業/介護/葬祭2→5年、その他と障害/遺族の区別、2027/4/1施行案・施行前の対象疾病事故の権利は旧時効を保持する経過措置。"
+  },
+  {
+    "id": "k222-8-outline",
+    "title": "公立学校の学校医等の公務災害補償法改正案：概要",
+    "url": "https://www.mext.go.jp/content/20261009-mxt_hourei-000052397_1.pdf",
+    "publisher": "文部科学省",
+    "checkedAt": "2026-10-16",
+    "note": "対象補償と時効の見直し。脳/心臓・精神疾患等は政令の想定で確定対象一覧ではない。学校児童の給付や全ての補償の時効延長とは扱わない。"
+  },
+  {
+    "id": "k222-1-mof-route",
+    "title": "飲食料品の消費税率引下げに関する現行案内",
+    "url": "https://www.mof.go.jp/tax_policy/20260915shouhizei.html",
+    "publisher": "財務省",
+    "checkedAt": "2026-10-16",
+    "note": "原文の到達性を再調査。法案リンク先は既知404の官房222ページ、別の本文が掲載されているとは確認できない。この案内を条文細目の根拠にしない。両院の最新一覧でも本文リンク欄は空欄。"
   }
 ]
