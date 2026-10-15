@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "node scripts/validate.mjs && vinext build && node scripts/postbuild.mjs",
+    "build": "node scripts/validate.mjs && vinext build && node scripts/postbuild.mjs && node scripts/analytics-config.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint app lib scripts tests components/catalog.tsx components/ui/input.tsx next.config.ts vite.config.ts",
     "format": "oxfmt",

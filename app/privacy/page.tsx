@@ -5,8 +5,15 @@ export default function Privacy() {
  return <main id="main"><article className="policy">
  <p className="eyebrow">情報の取扱い</p><h1>プライバシーポリシー</h1>
  <h2>このサイトで扱う情報</h2>
- <p>現在、会員登録、広告、アクセス解析、サイト内の送信フォームは設置していません。問い合わせは外部のGoogle Formsを利用します。当サイト独自のCookieやブラウザへの永続保存も使用していません。</p>
+ <p>会員登録、広告、サイト内の送信フォームは設置していません。問い合わせは外部のGoogle Formsを利用します。アクセス解析を有効にする場合は、以下の任意同意後に限ってCookieを使用します。</p>
  <p>テーマ検索と絞り込みはブラウザ内で処理します。入力した検索語を当サイトからサーバーや外部サービスへ送信する仕組みはありません。</p>
+ <h2>任意のアクセス解析とCookie</h2>
+ <p>無料のGoogle Analytics 4を、設定が有効で、閲覧者が同意した場合だけ読み込みます。同意前・拒否時にはGoogleの解析用スクリプトや計測リクエストを送信しません。広告連携、Google Signals、User-ID、拡張計測は使用しません。拒否してもサイトを利用できます。</p>
+ <p>目的はページ閲覧数、ブラウザに基づく推定訪問者・セッション、流入元の把握です。Googleへ送る情報は、公開済み許可ページの固定URL・固定タイトル、閲覧時刻、流入元の区分と登録済みキャンペーン、ブラウザ・端末の基礎情報、仮名のCookie識別子です。生の参照元のパス・クエリは送りません。IPアドレスは通信上Googleに届き、地域処理にも関係します。</p>
+ <p>検索語、絞り込みやフォームへの入力、問い合わせ内容・メールアドレス、利用者の所持・育成・編成データやJSON、他の保存データ、URLのクエリ・ハッシュ、任意のキャンペーン値は解析に送りません。</p>
+ <p>解析の同意・拒否の選択をサイト専用Cookieに保存します。同意後の計測Cookieも当サイトのパスに限定します。画面の「アクセス解析の設定」ボタンでいつでも選択を変更・同意を撤回でき、撤回後の送信を停止して当サイト用の計測Cookieを削除します。すでに送信済みの集計情報を遡って削除する操作ではありません。</p>
+ <p>送信先・配信元はGoogle（googletagmanager.com、google-analytics.com等）です。詳しくは<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>をご確認ください。</p>
+ <p>Googleへの通信が利用できない中国本土などの地域、通信遮断、同意拒否、広告ブロッカー等の来訪は捕捉できないことがあります。簡体字の読者がすべて中国本土にいるとも限りません。Google検索経由と中国語での閲覧は別で、記録がないことを実来訪0とは扱いません。</p>
  <h2>外部サイトへのリンク</h2>
  <p>出典などのリンク先では、そのサイトのプライバシーポリシーが適用されます。移動先が取得する情報については各サイトの案内をご確認ください。</p>
  <h2>問い合わせ</h2>
@@ -14,6 +21,6 @@ export default function Privacy() {
  <p><a href={href('/contact/')}>問い合わせ・訂正窓口</a></p>
  <p>Google Formsでの情報の取扱いは<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>もご確認ください。</p><h2>配信サービスと方針の変更</h2>
  <p>当サイトはGitHub Pagesで配信します。配信に伴うIPアドレス等の通信情報はGitHubが取り扱う場合があります。当サイト独自のアクセス解析とは区別されます。機能や外部サービスを追加する際には、実際の取扱いに合わせて本方針を更新します。</p>
- <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーに関する方針</a></p><p className="note">更新日：2026年9月12日</p>
+ <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーに関する方針</a></p><p className="note">更新日：2026年10月16日</p>
  </article></main>;
 }

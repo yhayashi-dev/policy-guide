@@ -15,6 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <script defer src={href('/analytics-config.js')} />
+        <script defer src={href('/analytics.js')} />
+      </head>
       <body>
         <a className="skip" href="#main">
           本文へ移動
