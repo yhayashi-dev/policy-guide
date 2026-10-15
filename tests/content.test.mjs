@@ -30,7 +30,8 @@ for (const [name, mutate] of [
     assert.ok(validate(x, s).length > 0);
   });
 test('current deliberating topics retain exact original bill identities', () => {
-  const active = a.filter(x => matches(x, '', 'すべて', '審議中'));
+  const active = a.filter(x => activeSlugs.includes(x.slug));
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 3);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -103,5 +104,23 @@ test('unpassed proposals cannot acquire enacted or waiting flags', () => {
       topic[flag] = true;
       assert.ok(validate(x, s).includes(`${topic.slug}: unpassed proposal flags`));
     }
+  }
+});
+
+// New-session bills are separate identities; an article does not make a proposal law.
+test('222 session priority proposals remain unpassed and separate from existing laws', () => {
+  const expected = {'food-tax-worker-support': 1, 'hepatitis-b-claim-extension': 9, 'pollution-survivor-compensation': 14};
+  for (const [slug, number] of Object.entries(expected)) {
+    const topic = a.find(x => x.slug === slug);
+    assert.ok(topic, slug);
+    assert.equal(topic.lawId, `第222回国会 閣法第${number}号（未成立）`);
+    assert.equal(topic.status, '衆議院審議');
+    assert.equal(topic.enacted, false);
+    assert.equal(topic.pending, false);
+    assert.equal(matches(topic, '', 'すべて', '成立済み'), false);
+    assert.equal(matches(topic, '', 'すべて', '施行待ち'), false);
+    assert.ok(topic.current.text.includes('成立'));
+    assert.ok(topic.next.some(x => x.text.includes('施行')));
+    assert.ok(topic.events.filter(x => x.date > topic.checkedAt).every(x => x.planned));
   }
 });

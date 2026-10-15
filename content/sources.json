@@ -894,5 +894,125 @@
     "publisher": "国土交通省",
     "checkedAt": "2026-10-16",
     "note": "同省施行期日案内の添付原本。令和8年法律第35号の施行期日を令和8年10月16日と明記。案文資料そのものを公布済み官報と取り違えず、同省の施行期日案内と合わせて確認。"
+  },
+  {
+    "id": "k222-1-progress",
+    "title": "第222回国会 閣法第1号：衆議院審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE342E.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-16",
+    "note": "第222回の新規提出案。受理・付託・両院審議結果・公布欄を確認。議決/公布の記載なし。既存221回法案とは別の識別。"
+  },
+  {
+    "id": "k222-1-senate",
+    "title": "第222回国会 閣法第1号：参議院議案明細",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-16",
+    "note": "222回/番号/衆先議と提出日を照合。予備審査受理を参院への正式送付・成立と混同しない。"
+  },
+  {
+    "id": "k222-1-reason",
+    "title": "租税及び社会保険料による負担の軽減のための飲食料品に係る消費税率の臨時的な引下げ及び就業者負担軽減支援金の支給に関する法律案：提出理由",
+    "url": "https://www.clb.go.jp/recent-laws/diet_bill/detail/id=5343",
+    "publisher": "内閣法制局",
+    "checkedAt": "2026-10-16",
+    "note": "国会回次/番号/提出日/理由を照合。提出者の目的説明で、効果の検証や全会派の賛否ではない。"
+  },
+  {
+    "id": "k222-9-progress",
+    "title": "第222回国会 閣法第9号：衆議院審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE34CE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-16",
+    "note": "第222回の新規提出案。受理・付託・両院審議結果・公布欄を確認。議決/公布の記載なし。既存221回法案とは別の識別。"
+  },
+  {
+    "id": "k222-9-senate",
+    "title": "第222回国会 閣法第9号：参議院議案明細",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222009.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-16",
+    "note": "222回/番号/衆先議と提出日を照合。予備審査受理を参院への正式送付・成立と混同しない。"
+  },
+  {
+    "id": "k222-9-reason",
+    "title": "特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法の一部を改正する法律案：提出理由",
+    "url": "https://www.clb.go.jp/recent-laws/diet_bill/detail/id=5359",
+    "publisher": "内閣法制局",
+    "checkedAt": "2026-10-16",
+    "note": "国会回次/番号/提出日/理由を照合。提出者の目的説明で、効果の検証や全会派の賛否ではない。"
+  },
+  {
+    "id": "k222-14-progress",
+    "title": "第222回国会 閣法第14号：衆議院審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE3532.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-16",
+    "note": "第222回の新規提出案。受理・付託・両院審議結果・公布欄を確認。議決/公布の記載なし。既存221回法案とは別の識別。"
+  },
+  {
+    "id": "k222-14-senate",
+    "title": "第222回国会 閣法第14号：参議院議案明細",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222014.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-16",
+    "note": "222回/番号/衆先議と提出日を照合。予備審査受理を参院への正式送付・成立と混同しない。"
+  },
+  {
+    "id": "k222-14-reason",
+    "title": "公害健康被害の補償等に関する法律の一部を改正する法律案：提出理由",
+    "url": "https://www.clb.go.jp/recent-laws/diet_bill/detail/id=5369",
+    "publisher": "内閣法制局",
+    "checkedAt": "2026-10-16",
+    "note": "国会回次/番号/提出日/理由を照合。提出者の目的説明で、効果の検証や全会派の賛否ではない。"
+  },
+  {
+    "id": "k222-1-mof",
+    "title": "2026年10月9日 財務大臣閣議後記者会見：消費税・支援金法案",
+    "url": "https://www.mof.go.jp/public_relations/conference/my20261009.html",
+    "publisher": "財務省",
+    "checkedAt": "2026-10-16",
+    "note": "法案に関する大臣説明・質疑。本文の代替とは扱わない。官房案文/関連PDFと衆院本文候補は実取得404のため不採用。本記事の税率/計画日はこの会見における政府の説明として限定。所得要件・個別給付額・法案附則は未確認。"
+  },
+  {
+    "id": "k222-9-text",
+    "title": "特定Ｂ型肝炎給付金特措法改正案：案文・理由",
+    "url": "https://www.mhlw.go.jp/content/001757324.pdf",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-10-16",
+    "note": "同省第222回提出法案ページ掲載。第5条の期限2027/3/31→2032/3/31、附則の財務期間延長、公布日施行の案を全文確認。未成立。"
+  },
+  {
+    "id": "k222-9-outline",
+    "title": "特定Ｂ型肝炎給付金特措法改正案：要綱",
+    "url": "https://www.mhlw.go.jp/content/001757323.pdf",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-10-16",
+    "note": "期限と期限内提訴等に伴う1月経過日の扱い、長期借入期間5年延長、施行条項を確認。"
+  },
+  {
+    "id": "k222-14-release",
+    "title": "公害健康被害補償法改正案の閣議決定（2026年10月13日）",
+    "url": "https://www.env.go.jp/press/press_05706.html",
+    "publisher": "環境省",
+    "checkedAt": "2026-10-16",
+    "note": "夫の60歳以上要件を見直す提案、背景・対象・案の施行日2027/4/1を確認。同ページは提出予定表現であり提出の実績は両院経過で別照合。"
+  },
+  {
+    "id": "k222-14-text",
+    "title": "公害健康被害補償法改正案：案文・理由",
+    "url": "https://www.env.go.jp/content/000434824.pdf",
+    "publisher": "環境省",
+    "checkedAt": "2026-10-16",
+    "note": "第30条を配偶者へ、夫の年齢要件を削除。附則2027/4/1施行案・施行前支給事由は従前・政令委任を2頁とも画像で確認。抽出テキスト文字化けを根拠にしない。"
+  },
+  {
+    "id": "k222-14-comparison",
+    "title": "公害健康被害補償法改正案：新旧対照条文",
+    "url": "https://www.env.go.jp/content/000434825.pdf",
+    "publisher": "環境省",
+    "checkedAt": "2026-10-16",
+    "note": "第30条の配偶者/夫の年齢要件と生計維持・遺族順位を画像で確認。父母/祖父母等の別の条件を一括撤廃する案ではない。"
   }
 ]
