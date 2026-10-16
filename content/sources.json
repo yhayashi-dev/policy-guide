@@ -1110,5 +1110,45 @@
     "publisher": "個人情報保護委員会",
     "checkedAt": "2026-10-16",
     "note": "10/14資料の表紙・今回検討項目（PDF1–2頁）を本文/画像照合。不適正利用等防止、オプトアウト強化、課徴金の整備検討。62頁全体の詳細規則を確定扱いせず、施行日公表/施行開始の証拠としない。"
+  },
+  {
+    "id": "financial-income-diet-221-25",
+    "title": "第221回国会 閣法25号：健康保険法等の一部を改正する法律案・審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1FDE.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-17",
+    "note": "提出2026/3/13、衆院4/28可決、参院5/29可決、6/5公布・法律31号。法案名と番号を照合。"
+  },
+  {
+    "id": "financial-income-enacted-law",
+    "title": "健康保険法等の一部を改正する法律（令和8年法律第31号）：成立法律",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/pdf/s0802210252210.pdf",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-17",
+    "note": "88頁の成立法律。表紙の法律番号/公布、第9条（PDF49–51頁）の高確法138条の2/3、附則1条7号（PDF73頁）の公布後5年以内の政令日、附則27条（PDF80頁）の適用関係を確認。法全体の原則施行2027/4/1と本措置を混同しない。"
+  },
+  {
+    "id": "financial-income-original-bill",
+    "title": "第221回国会 閣法25号：健康保険法等の一部を改正する法律案・案文",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22109025.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-17",
+    "note": "提出案の第9条/附則1条7号/27条を成立法律の該当規定と照合。提出案そのものを公布法の代用にしない。"
+  },
+  {
+    "id": "financial-income-meeting-218",
+    "title": "第218回社会保障審議会医療保険部会（ペーパーレス）資料",
+    "url": "https://www.mhlw.go.jp/stf/newpage_76752.html",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-10-17",
+    "note": "2026/10/16開催。議題3は金融所得反映のスケジュールについて（報告）、資料3の所在と日付を照合。"
+  },
+  {
+    "id": "financial-income-schedule-20261016",
+    "title": "後期高齢者医療制度における金融所得の公平な反映のスケジュールについて（第218回医療保険部会・資料3）",
+    "url": "https://www.mhlw.go.jp/content/12401000/001759824.pdf",
+    "publisher": "厚生労働省",
+    "checkedAt": "2026-10-17",
+    "note": "PDF2頁の成立法概要/公布、3頁の対象/現行との差、4頁（印刷3頁）を画像照合。2029/1オンライン提出義務化、2029/8年次提出分（枚数約8割）、2030/8以降すべての法定調書の金融所得反映はスケジュール案。PDF8頁の4/24衆院・5/28参院附帯決議（抄）は歴史的要請。図の2026.4「法案成立」は国会の成立5/29と異なるため成立日の根拠に採用しない。政令日確定/個人適用の根拠にしない。"
   }
 ]
