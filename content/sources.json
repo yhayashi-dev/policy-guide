@@ -1150,5 +1150,69 @@
     "publisher": "厚生労働省",
     "checkedAt": "2026-10-17",
     "note": "PDF2頁の成立法概要/公布、3頁の対象/現行との差、4頁（印刷3頁）を画像照合。2029/1オンライン提出義務化、2029/8年次提出分（枚数約8割）、2030/8以降すべての法定調書の金融所得反映はスケジュール案。PDF8頁の4/24衆院・5/28参院附帯決議（抄）は歴史的要請。図の2026.4「法案成立」は国会の成立5/29と異なるため成立日の根拠に採用しない。政令日確定/個人適用の根拠にしない。"
+  },
+  {
+    "id": "remote-analysis-diet",
+    "title": "第222回国会 閣法15号：警察官職務執行法改正案の審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222015.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出・衆先議を確認。議決・公布欄は空欄で成立/施行にしない。衆院/内閣法制局一覧との掲載時差あり。"
+  },
+  {
+    "id": "remote-analysis-bill",
+    "title": "警察官職務執行法改正案：案文・理由",
+    "url": "https://www.npa.go.jp/laws/kokkai/20261016/02_anbun_riyuu.pdf",
+    "publisher": "警察庁",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "remote-analysis-outline",
+    "title": "警察官職務執行法改正案：要綱",
+    "url": "https://www.npa.go.jp/laws/kokkai/20261016/01_youkou.pdf",
+    "publisher": "警察庁",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "remote-analysis-summary",
+    "title": "警察官職務執行法改正案：概要",
+    "url": "https://www.npa.go.jp/laws/kokkai/20261016/05_sankoushiryou.pdf",
+    "publisher": "警察庁",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "local-elections-2027-diet",
+    "title": "第222回国会 閣法16号：地方選挙期日特例案の審議情報",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222016.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出・衆先議を確認。議決・公布欄は空欄で成立/施行にしない。衆院/内閣法制局一覧との掲載時差あり。"
+  },
+  {
+    "id": "local-elections-2027-bill",
+    "title": "地方選挙期日特例案：案文・理由",
+    "url": "https://www.soumu.go.jp/main_content/001096560.pdf",
+    "publisher": "総務省",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "local-elections-2027-outline",
+    "title": "地方選挙期日特例案：要綱",
+    "url": "https://www.soumu.go.jp/main_content/001096559.pdf",
+    "publisher": "総務省",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "local-elections-2027-summary",
+    "title": "地方選挙期日特例案：概要",
+    "url": "https://www.soumu.go.jp/main_content/001096558.pdf",
+    "publisher": "総務省",
+    "checkedAt": "2026-10-17",
+    "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
   }
 ]
