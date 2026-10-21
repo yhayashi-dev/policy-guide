@@ -900,16 +900,16 @@
     "title": "第222回国会 閣法第1号：衆議院審議経過",
     "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE342E.htm",
     "publisher": "衆議院",
-    "checkedAt": "2026-10-16",
-    "note": "第222回の新規提出案。受理・付託・両院審議結果・公布欄を確認。議決/公布の記載なし。既存221回法案とは別の識別。"
+    "checkedAt": "2026-10-21",
+    "note": "第222回の新規提出案。受理・付託・両院審議結果・公布欄を確認。議決/公布の記載なし。既存221回法案とは別の識別。 2026年10月21日、10月20日の衆議院財務金融委員会付託と、審議結果・公布欄の新記載がないことを照合。"
   },
   {
     "id": "k222-1-senate",
     "title": "第222回国会 閣法第1号：参議院議案明細",
     "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222080222001.htm",
     "publisher": "参議院",
-    "checkedAt": "2026-10-16",
-    "note": "222回/番号/衆先議と提出日を照合。予備審査受理を参院への正式送付・成立と混同しない。"
+    "checkedAt": "2026-10-21",
+    "note": "222回/番号/衆先議と提出日を照合。予備審査受理を参院への正式送付・成立と混同しない。 2026年10月21日、10月20日の衆議院財務金融委員会付託と、審議結果・公布欄の新記載がないことを照合。"
   },
   {
     "id": "k222-1-reason",
@@ -1214,5 +1214,29 @@
     "publisher": "総務省",
     "checkedAt": "2026-10-17",
     "note": "10/16提出案の公式原本。成立法律ではない。案文の対象・例外・手続・附則と概要/要綱を照合。"
+  },
+  {
+    "id": "sh222-1-progress",
+    "title": "第222回国会 衆法第1号：就業者負担軽減案の審議経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE36B6.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-21",
+    "note": "提出回次222・衆法1号・提出会派・10月20日受理を確認。付託・審議結果・公布欄は空欄。閣法1号や旧221回衆法30/31と別議案。"
+  },
+  {
+    "id": "sh222-1-text",
+    "title": "就業者の租税及び社会保険料による負担の軽減のために講ずべき措置に関する法律案：提出時本文",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22205001.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-21",
+    "note": "第1〜5条・附則・提出理由を実読。控除と給付の対象/時期/法制措置を照合。未成立で現行制度の変更とはしない。"
+  },
+  {
+    "id": "sh222-1-outline",
+    "title": "同法案要綱（第222回国会 衆法第1号）",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/youkou/g22205001.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-21",
+    "note": "本文と要綱の項目/年分・年度を照合。2027年分所得税・2028年度住民税/給付と2027年度暫定給付を区別。"
   }
 ]
