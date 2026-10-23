@@ -220,8 +220,8 @@
     "title": "こども性暴力防止法：法令・施行準備",
     "url": "https://www.cfa.go.jp/policies/child-safety/efforts/koseibouhou",
     "publisher": "こども家庭庁",
-    "checkedAt": "2026-10-11",
-    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。"
+    "checkedAt": "2026-10-23",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。 2026年10月23日、準備ガイドVer.1.2と同日通知・別添の追加を照合。"
   },
   {
     "id": "harass-2026",
@@ -764,8 +764,8 @@
     "title": "こども性暴力防止法に基づく従事者向け研修教材",
     "url": "https://www.cfa.go.jp/policies/child-safety/efforts/koseibouhou/jujisya",
     "publisher": "こども家庭庁",
-    "note": "従事者向け研修資料は2026年10月7日、演習資料は9月15日更新。研修・予防措置の準備資料。",
-    "checkedAt": "2026-10-11"
+    "note": "従事者向け研修資料は2026年10月7日、演習資料は9月15日更新。研修・予防措置の準備資料。 2026年10月23日、アーカイブ配信動画がファイル形式での提供対象外との追記を照合。",
+    "checkedAt": "2026-10-23"
   },
   {
     "id": "privacy-enacted-law",
@@ -1246,5 +1246,29 @@
     "publisher": "参議院",
     "checkedAt": "2026-10-22",
     "note": "提出日10月20日・衆先議・222回衆法1号を照合。両院の委員会付託・議決・公布欄に記載なし。参議院予備審査受理の具体日は衆議院経過を出典とする。"
+  },
+  {
+    "id": "k222-1-submitted-text",
+    "title": "第222回国会 閣法第1号：飲食料品消費税・就業者支援金案の提出時本文",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22209001.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-10-23",
+    "note": "第1・2・9・10条と附則第1条等の主要条項を照合。国税率0.78％/地方税含む1％の特例期間、支給要件・額の政令委任、施行日例外を確認。本文全条項や実施細目の網羅確認ではない。"
+  },
+  {
+    "id": "dbs-guide-20261023",
+    "title": "こども性暴力防止法 義務事業者用準備ガイドVer.1.2",
+    "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/80127231-8582-476e-a6e7-9347e725ed96/51c45b26/20261023_policies_child-safety_efforts_koseibouhou_106.pdf",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-10-23",
+    "note": "10/23掲載のガイド。チェックリストの基本的な考え方と研修教材案内等を照合。法施行日は12/25で変更なし。"
+  },
+  {
+    "id": "dbs-notice-20261023",
+    "title": "義務事業者用準備ガイドVer.1.2の周知等について（2026年10月23日通知）",
+    "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/80127231-8582-476e-a6e7-9347e725ed96/55740f81/20261023_policies_child-safety_efforts_koseibouhou_108.pdf",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-10-23",
+    "note": "2頁通知に示す改訂点・施行準備の要請を確認。新たな施行や対象拡大ではない。"
   }
 ]
