@@ -46,7 +46,7 @@ test('current deliberating topics retain exact original bill identities', () => 
 test('pending includes exact future and partial implementations', () =>
   assert.deepEqual(
     a.filter((x) => matches(x, '', 'すべて', '施行待ち')).map(x => x.slug).sort(),
-    ['elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','imperial-household','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
+    ['elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
   ));
 test('Japanese keyword and category combine', () =>
   assert.deepEqual(
