@@ -114,7 +114,7 @@ test('222 session priority proposals remain unpassed and separate from existing 
     const topic = a.find(x => x.slug === slug);
     assert.ok(topic, slug);
     assert.equal(topic.lawId, `第222回国会 閣法第${number}号（未成立）`);
-    assert.equal(topic.status, '衆議院審議');
+    assert.equal(topic.status, slug === 'local-public-survivor-compensation' ? '参議院審議' : '衆議院審議');
     assert.equal(topic.enacted, false);
     assert.equal(topic.pending, false);
     assert.equal(matches(topic, '', 'すべて', '成立済み'), false);
