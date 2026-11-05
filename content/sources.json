@@ -220,8 +220,8 @@
     "title": "こども性暴力防止法：法令・施行準備",
     "url": "https://www.cfa.go.jp/policies/child-safety/efforts/koseibouhou",
     "publisher": "こども家庭庁",
-    "checkedAt": "2026-10-23",
-    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。 2026年10月23日、準備ガイドVer.1.2と同日通知・別添の追加を照合。"
+    "checkedAt": "2026-11-05",
+    "note": "制度の対象・適用時期・最新の案内を確認。公表時の予定と施行済みの事実を区別。。2026-09-12最終バッチで公式本文を再照合。 2026年10月23日、準備ガイドVer.1.2と同日通知・別添の追加を照合。 2026年11月5日、同日QA改訂通知とQA更新・こまもろうナビ実リンク掲載を確認。新通知/QA必要箇所は別出典、特設サイトの全機能/全本文は未確認。"
   },
   {
     "id": "harass-2026",
@@ -1366,5 +1366,21 @@
     "publisher": "内閣法制局",
     "checkedAt": "2026-11-03",
     "note": "違法利用防止・情報把握/ファイル制度の必要性という政府説明。効果実証や賛否網羅ではない。"
+  },
+  {
+    "id": "dbs-notice-20261105",
+    "title": "こども性暴力防止法Q&A改訂の周知依頼（11月5日）",
+    "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/80127231-8582-476e-a6e7-9347e725ed96/1e04e636/20261105_policies_child-safety_efforts_koseibouhou_110.pdf",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-11-05",
+    "note": "支援局長通知2頁。施行12/25、追加/更新設問一覧と広い周知の依頼を確認。法改正・施行日変更ではない。"
+  },
+  {
+    "id": "dbs-qa-20261105",
+    "title": "こども性暴力防止法に関するQ&A（11月5日改訂）",
+    "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/80127231-8582-476e-a6e7-9347e725ed96/fd388aa4/20261105_policies_child-safety_efforts_koseibouhou_111.pdf",
+    "publisher": "こども家庭庁",
+    "checkedAt": "2026-11-05",
+    "note": "全130頁中、改訂履歴p2と基礎7-10/応用8-25/10-3-2（物理p60/123/126）の必要箇所確認。全問/全変更監査ではない。個別判断や一律の情報提供/委託許可と扱わない。"
   }
 ]
