@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 9);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 10);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -132,4 +132,17 @@ test('222 session priority proposals remain unpassed and separate from existing 
     assert.ok(topic.next.some(x => x.text.includes('施行')));
     assert.ok(topic.events.filter(x => x.date > topic.checkedAt).every(x => x.planned));
   }
+});
+
+test('Senate tax measures proposal stays separate from government tax bill and rejected House bill', () => {
+  const x = a.find(x => x.slug === 'consumption-tax-five-percent-measures');
+  assert.equal(x.lawId, '第222回国会 参法第2号（未成立）');
+  assert.equal(x.status, '参議院審議');
+  assert.equal(x.enacted, false); assert.equal(x.pending, false);
+  assert.equal(matches(x, '消費税', '税金', '審議中'), true);
+  assert.equal(matches(x, '', 'すべて', '成立済み'), false);
+  assert.ok(x.changes.some(b => b.text.includes('法制上の措置')));
+  const date = x.events.find(e => e.date === '2027-04-01');
+  assert.equal(date.planned, true);
+  assert.equal(a.find(x => x.slug === 'worker-tax-insurance-relief').status, '廃案');
 });
