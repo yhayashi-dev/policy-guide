@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 10);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 9);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -46,7 +46,7 @@ test('current deliberating topics retain exact original bill identities', () => 
 test('pending includes exact future and partial implementations', () =>
   assert.deepEqual(
     a.filter((x) => matches(x, '', 'すべて', '施行待ち')).map(x => x.slug).sort(),
-    ['elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
+    ['local-election-dates-2027','elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
   ));
 test('Japanese keyword and category combine', () =>
   assert.deepEqual(
@@ -145,4 +145,15 @@ test('Senate tax measures proposal stays separate from government tax bill and r
   const date = x.events.find(e => e.date === '2027-04-01');
   assert.equal(date.planned, true);
   assert.equal(a.find(x => x.slug === 'worker-tax-insurance-relief').status, '廃案');
+});
+
+test('local election act enactment remains distinct from promulgation and commencement', () => {
+  const x = a.find(x => x.slug === 'local-election-dates-2027');
+  assert.equal(x.status, '成立'); assert.equal(x.enacted, true); assert.equal(x.pending, true);
+  assert.equal(matches(x, '', 'すべて', '審議中'), false);
+  assert.equal(matches(x, '', 'すべて', '施行待ち'), true);
+  assert.equal(matches(x, '', 'すべて', '成立済み'), true);
+  assert.match(x.current.text, /公布日・法律番号の欄は未記載/);
+  assert.equal(x.events.find(e => e.date === '2026-11-11').planned, false);
+  assert.equal(x.events.find(e => e.date === '2027-04-11').planned, true);
 });
