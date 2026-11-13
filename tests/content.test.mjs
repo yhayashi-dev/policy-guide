@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 9);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 10);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -156,4 +156,17 @@ test('local election act enactment remains distinct from promulgation and commen
   assert.match(x.current.text, /公布日・法律番号の欄は未記載/);
   assert.equal(x.events.find(e => e.date === '2026-11-11').planned, false);
   assert.equal(x.events.find(e => e.date === '2027-04-11').planned, true);
+});
+
+test('new Senate worker relief proposal does not revive the rejected same-title House bill', () => {
+  const x = a.find(x => x.slug === 'worker-tax-insurance-relief-senate');
+  const old = a.find(x => x.slug === 'worker-tax-insurance-relief');
+  assert.equal(x.lawId, '第222回国会 参法第3号（未成立）');
+  assert.equal(x.status, '参議院審議'); assert.equal(x.enacted, false); assert.equal(x.pending, false);
+  assert.equal(old.status, '廃案');
+  assert.equal(matches(old, '', 'すべて', '審議中'), false);
+  assert.equal(matches(x, '', 'すべて', '審議中'), true);
+  assert.ok(x.changes.some(b => b.text.includes('2027年分')));
+  assert.ok(x.changes.some(b => b.text.includes('2028年度分')));
+  assert.ok(x.current.refs.includes('sn222-3-text'));
 });
