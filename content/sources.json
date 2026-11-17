@@ -1446,5 +1446,45 @@
     "publisher": "参議院",
     "checkedAt": "2026-11-14",
     "note": "個別経過で否決と表示された新掲載修正案1頁。大気汚染疾病の無償医療制度整備の検討条項追加を提案。否決修正を成立原案に混ぜず、党派/反対理由の推定はしない。"
+  },
+  {
+    "id": "sh222-3-progress",
+    "title": "第222回衆法3号：現行衆院選挙制度見直し案の衆院経過",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE378A.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-11-17",
+    "note": "11/12加藤勝信君外11名提出、11/16政治改革特別委付託。議決/公布番号空欄。参院予備審査受理と正式移送/成立を区別。"
+  },
+  {
+    "id": "sh222-3-text",
+    "title": "第222回衆法3号：現行衆院選挙制度見直し案の提出本文・理由",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/houan/g22205003.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-11-17",
+    "note": "第1〜3条/附則1〜5/理由全文確認。比例145/総434、中国四国13、1.4と3以上奇数配分・名簿不足・共同名簿法制措置・別法施行と適用区分。未成立、221衆28別。"
+  },
+  {
+    "id": "sh222-3-outline",
+    "title": "第222回衆法3号：現行衆院選挙制度見直し案の要綱",
+    "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/honbun/youkou/g22205003.htm",
+    "publisher": "衆議院",
+    "checkedAt": "2026-11-17",
+    "note": "要綱全文確認。HTML数値の一部が画像のため欠落する箇所は提出正式条文で照合。修正サン・ラグ式、比例復活得票1/10→1/6、共同名簿措置等。"
+  },
+  {
+    "id": "sn222-4-senate",
+    "title": "第222回参法4号：公職者の街頭演説妨害防止案の参院経過",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/meisai/m222100222004.htm",
+    "publisher": "参議院",
+    "checkedAt": "2026-11-17",
+    "note": "11/13神谷宗幣君外3名提出、本院先議。付託/議決/公布番号空欄。新PDFリンク取得済み。"
+  },
+  {
+    "id": "sn222-4-text",
+    "title": "第222回参法4号：公職者の街頭演説妨害防止案の正式本文・理由",
+    "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/222/pdf/t1002220042220.pdf",
+    "publisher": "参議院",
+    "checkedAt": "2026-11-17",
+    "note": "全3頁テキスト/画像照合。第1〜5条/附則/理由。現職対象/選挙運動除外/著しい妨害要件/警察中止命令と命令違反罰/権利配慮、公布起算3月施行案。批判全般禁止/即時刑罰/成立施行と拡張しない。"
   }
 ]

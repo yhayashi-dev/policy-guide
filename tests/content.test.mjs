@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 7);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 9);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -185,4 +185,16 @@ test('rejected pollution amendment is not described as adopted law or commenced 
   assert.match(x.current.text, /公布日・法律番号は未記載/);
   const block = x.misunderstandings.find(b => b.refs.includes('k222-14-rejected-amendment'));
   assert.match(block.text, /否決/); assert.match(block.text, /成立した改正内容として案内しません/);
+});
+
+// Newly published bills remain proposals, with distinct identities and conditional rules.
+test('new electoral bill does not replace the carried-over bill or enact a fixed election date', () => {
+  const x=a.find(x=>x.slug==='house-electoral-system-revision-222');
+  assert.equal(x.lawId,'第222回国会 衆法第3号（未成立）');assert.equal(x.enacted,false);assert.equal(x.pending,false);
+  assert.equal(a.find(x=>x.slug==='electoral-reform').lawId,historical.find(x=>x.slug==='electoral-reform').lawId);
+  const text=JSON.stringify(x);for(const word of ['145','434','1.4','別の法律','第221回衆法28号'])assert.ok(text.includes(word));
+});
+test('street speech proposal separates excluded election campaigns and command-violation penalties', () => {
+  const x=a.find(x=>x.slug==='street-speech-obstruction-bill');assert.equal(x.enacted,false);assert.equal(x.pending,false);assert.equal(x.status,'参議院審議');
+  const text=JSON.stringify(x);for(const word of ['選挙運動を除く','命令に違反','6か月','20万円','3か月','不当に侵害'])assert.ok(text.includes(word));
 });
