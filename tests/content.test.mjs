@@ -6,7 +6,7 @@ import { matches } from '../lib/search.ts';
 const a = JSON.parse(readFileSync('content/articles.json'));
 const s = JSON.parse(readFileSync('content/sources.json'));
 const historical = JSON.parse(readFileSync('tests/fixtures/articles-2026-09-12.json'));
-const activeSlugs = ['political-donations', 'disability-lifelong-support', 'vehicle-tax-surcharge', 'vehicle-theft', 'special-city', 'electoral-reform', 'small-business-support', 'housing-speculation-tax'];
+const activeSlugs = ['political-donations', 'disability-lifelong-support', 'vehicle-tax-surcharge', 'vehicle-theft', 'special-city', 'small-business-support', 'housing-speculation-tax'];
 test('published data is valid', () => assert.deepEqual(validate(a, s), []));
 for (const [name, mutate] of [
   ['missing source', (x) => (x[0].summaryRefs = ['missing'])],
@@ -197,4 +197,11 @@ test('new electoral bill does not replace the carried-over bill or enact a fixed
 test('street speech proposal separates excluded election campaigns and command-violation penalties', () => {
   const x=a.find(x=>x.slug==='street-speech-obstruction-bill');assert.equal(x.enacted,false);assert.equal(x.pending,false);assert.equal(x.status,'参議院審議');
   const text=JSON.stringify(x);for(const word of ['選挙運動を除く','命令に違反','6か月','20万円','3か月','不当に侵害'])assert.ok(text.includes(word));
+});
+
+test('withdrawn electoral proposal remains archived separately from the new proposal', () => {
+ const old=a.find(x=>x.slug==='electoral-reform'), fresh=a.find(x=>x.slug==='house-electoral-system-revision-222');
+ assert.equal(old.status,'廃案');assert.equal(old.enacted,false);assert.equal(old.pending,false);assert.equal(old.lawId,historical.find(x=>x.slug===old.slug).lawId);
+ assert.ok(old.current.text.includes('撤回許可'));assert.ok(old.current.text.includes('否決や成立'));assert.ok(old.events.some(x=>x.date==='2026-11-17'&&x.label.includes('撤回許可')&&!x.planned));
+ assert.equal(fresh.status,'衆議院審議');assert.equal(fresh.enacted,false);assert.ok(fresh.misunderstandings.some(x=>x.text.includes('撤回が許可')));
 });
