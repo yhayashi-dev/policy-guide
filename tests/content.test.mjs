@@ -31,7 +31,7 @@ for (const [name, mutate] of [
   });
 test('current deliberating topics retain exact original bill identities', () => {
   const active = a.filter(x => activeSlugs.includes(x.slug));
-  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 9);
+  assert.equal(a.filter(x => matches(x, '', 'すべて', '審議中')).length, activeSlugs.length + 10);
   assert.deepEqual(active.map(x => x.slug).sort(), [...activeSlugs].sort());
   for (const topic of active) {
     assert.equal(topic.status, '衆議院審議');
@@ -46,7 +46,7 @@ test('current deliberating topics retain exact original bill identities', () => 
 test('pending includes exact future and partial implementations', () =>
   assert.deepEqual(
     a.filter((x) => matches(x, '', 'すべて', '施行待ち')).map(x => x.slug).sort(),
-    ['hepatitis-b-claim-extension','pollution-survivor-compensation','local-public-survivor-compensation','local-election-dates-2027','elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
+    ['hepatitis-b-claim-extension','pollution-survivor-compensation','local-public-survivor-compensation','elderly-medical-financial-income','child-safety-dbs','disaster-agency','guardianship-wills','high-cost-medical','income-tax-2026','junior-high-classes','pension-reform','personal-data-reform','public-data-use','social-insurance','solar-panel-recycling','workers-compensation'].sort(),
   ));
 test('Japanese keyword and category combine', () =>
   assert.deepEqual(
@@ -123,8 +123,8 @@ test('222 session priority bills retain identities and confirmed enactment stage
     const topic = a.find(x => x.slug === slug);
     assert.ok(topic, slug);
     const enacted = [5, 9, 14].includes(number);
-    assert.equal(topic.lawId, `第222回国会 閣法第${number}号（${enacted ? '11月13日成立・法律番号未確認' : '未成立'}）`);
-    assert.equal(topic.status, enacted ? '成立' : '参議院審議');
+    assert.equal(topic.lawId, enacted ? `令和8年法律第${({5:86,9:88,14:87})[number]}号（第222回国会 閣法第${number}号）` : `第222回国会 閣法第${number}号（未成立）`);
+    assert.equal(topic.status, enacted ? '公布' : '参議院審議');
     assert.equal(topic.enacted, enacted);
     assert.equal(topic.pending, enacted);
     assert.equal(matches(topic, '', 'すべて', '成立済み'), enacted);
@@ -150,11 +150,11 @@ test('Senate tax measures proposal stays separate from government tax bill and r
 
 test('local election act enactment remains distinct from promulgation and commencement', () => {
   const x = a.find(x => x.slug === 'local-election-dates-2027');
-  assert.equal(x.status, '成立'); assert.equal(x.enacted, true); assert.equal(x.pending, true);
+  assert.equal(x.status, '施行済み'); assert.equal(x.enacted, true); assert.equal(x.pending, false);
   assert.equal(matches(x, '', 'すべて', '審議中'), false);
-  assert.equal(matches(x, '', 'すべて', '施行待ち'), true);
+  assert.equal(matches(x, '', 'すべて', '施行待ち'), false);
   assert.equal(matches(x, '', 'すべて', '成立済み'), true);
-  assert.match(x.current.text, /公布日・法律番号の欄は未記載/);
+  assert.match(x.current.text, /11月18日施行/); assert.ok(x.current.refs.includes('local-elections-2027-law83'));
   assert.equal(x.events.find(e => e.date === '2026-11-11').planned, false);
   assert.equal(x.events.find(e => e.date === '2027-04-11').planned, true);
 });
@@ -181,8 +181,8 @@ test('rejected pollution amendment is not described as adopted law or commenced 
     }
   }
   const x = a.find(x => x.slug === 'pollution-survivor-compensation');
-  assert.equal(x.status, '成立'); assert.equal(x.pending, true);
-  assert.match(x.current.text, /公布日・法律番号は未記載/);
+  assert.equal(x.status, '公布'); assert.equal(x.pending, true);
+  assert.match(x.current.text, /令和8年法律第87号/); assert.match(x.current.text, /施行の正式情報は今回確認できていません/);
   const block = x.misunderstandings.find(b => b.refs.includes('k222-14-rejected-amendment'));
   assert.match(block.text, /否決/); assert.match(block.text, /成立した改正内容として案内しません/);
 });
@@ -204,4 +204,20 @@ test('withdrawn electoral proposal remains archived separately from the new prop
  assert.equal(old.status,'廃案');assert.equal(old.enacted,false);assert.equal(old.pending,false);assert.equal(old.lawId,historical.find(x=>x.slug===old.slug).lawId);
  assert.ok(old.current.text.includes('撤回許可'));assert.ok(old.current.text.includes('否決や成立'));assert.ok(old.events.some(x=>x.date==='2026-11-17'&&x.label.includes('撤回許可')&&!x.planned));
  assert.equal(fresh.status,'衆議院審議');assert.equal(fresh.enacted,false);assert.ok(fresh.misunderstandings.some(x=>x.text.includes('撤回が許可')));
+});
+
+// Safety distinctions for newly available primary material.
+test('child allowances proposal preserves eligibility and adult allowance distinctions', () => {
+ const x=a.find(x=>x.slug==='disabled-child-allowance-income-limits');
+ assert.equal(x.enacted,false);assert.equal(x.pending,false);assert.equal(x.status,'参議院審議');
+ assert.ok(x.changes.some(b=>b.text.includes('施行日に')&&b.text.includes('支給要件')&&b.text.includes('9月30日')));
+ assert.ok(x.misunderstandings.some(b=>b.text.includes('特別障害者手当の所得制限を撤廃するものではなく')));
+ assert.ok(x.changes.some(b=>b.text.includes('別途必要な法制上の措置')));
+ assert.ok(x.events.filter(e=>e.date>x.checkedAt).every(e=>e.planned));
+});
+test('DBS system pause does not postpone legal commencement or invent an alternative process',()=>{
+ const x=a.find(x=>x.slug==='child-safety-dbs');assert.equal(x.status,'施行待ち');assert.equal(x.pending,true);
+ assert.ok(x.current.text.includes('システム以外の手続')&&x.current.text.includes('代替手続が既に確定したという意味ではありません'));
+ assert.ok(x.current.text.includes('法律の施行延期や義務全体の停止を発表したものとは扱いません'));
+ assert.equal(x.events.find(e=>e.date==='2026-12-25').planned,true);
 });
